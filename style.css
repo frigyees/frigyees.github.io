@@ -230,7 +230,7 @@ section {
 
 .bio {
     display: grid;
-    grid-template-columns: 40% 1fr;
+    grid-template-columns: 50% 1fr;
     gap: 1rem;
 }
 
@@ -251,6 +251,9 @@ section {
         max-width: 100%;
         /* object-fit: cover; */
         /* aspect-ratio: unset; */
+    }
+    .bio {
+        grid-template-columns: 40% 1fr;
     }
 }
 
